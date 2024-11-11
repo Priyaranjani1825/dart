@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+//function to trigger build process
+void main()=>runApp(const GeeksforGeeks());
+class GeeksforGeeks extend Stateless Widget{
+const GeeksforGeeks({Key?key}):super(key:key);
+@override
+Widget build(BuildContext context){
+return materialApp(
+home:scaffold(
+backgroundColor:Color.lightGreen,
+appBar:AppBar(
+background Color:Color.green,
+title:const Text("welcome Screen"),
+),//AppBar
+body:Container
+child:const Center(
+   child:Test("Hello world!!'),
+),//Center
+),//Container
+),//Scaffold
+);//Material App
+}
+}
